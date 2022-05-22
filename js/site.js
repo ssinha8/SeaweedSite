@@ -1,1 +1,3 @@
-console.log("is this working?");
+bubbleClick = $("#bubbleClick");
+
+// displays the text bubble for the seaweed bubbl
