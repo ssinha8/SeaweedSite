@@ -68,7 +68,7 @@ body {
   background-color: red;
 }
 
-.clickHere { 
+.clickHere {
   font-size: 20pt;
   color: white;
   font-weight: bold;
@@ -87,7 +87,7 @@ body {
 
 #indicator2 {
   float: right;
-  margin-right: 500px; 
+  margin-right: 500px;
 }
 
 #indicator3 {
