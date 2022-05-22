@@ -1,8 +1,15 @@
 body {
   font-family: sans-serif;
-  height: 3000px;
+  height: 3000px; /* DIMENSIONS OF THE SITE */
+  width: 1500px;
   background: linear-gradient(0deg, #001318 0%, #006882 50%, #88e7ff 100%);
 }
+
+/* BACKGROUND IMAGE GOES HERE ONCE WE HAVE IT. TRANSPARENT.GIF AND SPIDER.PNG WERE TEST FILES
+#content {
+  background: url(../image/transparent.gif);
+}
+*/
 
 .title {
   margin-left: auto;
