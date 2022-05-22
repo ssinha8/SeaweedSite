@@ -44,3 +44,53 @@ body {
   width: 250px;
   color: #9fe470;
 }
+
+.bubbleText {
+  width: 200px;
+}
+
+#stemClick {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 900px;
+  width: 40px;
+  height: 100px;
+  background-color: red;
+}
+
+#holdfastClick {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 40px;
+  background-color: red;
+}
+
+.clickHere { 
+  font-size: 20pt;
+  color: white;
+  font-weight: bold;
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #0f580a;
+  width: 140px;
+}
+
+#indicator1 {
+  float: right;
+  margin-right: 500px;
+}
+
+#indicator2 {
+  float: right;
+  margin-right: 500px; 
+}
+
+#indicator3 {
+  margin-top: 1050px;
+  margin-left: 500px;
+}

@@ -7,7 +7,7 @@
 	src="https://code.jquery.com/jquery-3.6.0.min.js"
 	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
 	crossorigin="anonymous"></script>
-	<script src="js/lab.js" defer></script>
+	<script src="js/site.js" defer></script>
 </head>
 <body>
 	<div id="content">
@@ -27,15 +27,34 @@
 			</div>
 		</div>
 		<div class="information">
-			<p id="bubble1">
-				This is bubble text for bubble 1
-			</p>
-			<p id="bubble2">
-				This is bubble text for bubble 2
-			</p>
-			<p id="bubble3">
-				This is bubble text for bubble 3 (the bubble text still needs a lot of work as u can see)
-			</p>
+			<div id="container1">
+				<p class="clickHere" id="indicator1">
+					Click here!
+				</p>
+				<p id="bubble1" class="bubbleText">
+					This is bubble text for bubble 1. It will contain information about the bubble part of the seaweed.
+				</p>
+			</div>
+			
+			<div id="containter2">
+				<button id="stemClick">stem button</button>
+				<p class="clickHere" id="indicator2">
+					Click here!
+				</p>
+				<p id="bubble2" class="bubbleText">
+					This is bubble text for bubble 2. It will contain information about the stem part of the seaweed.
+				</p>
+			</div>
+
+			<div id="container3">
+				<p class="clickHere" id="indicator3">
+					Click here!
+				</p>
+				<button id="holdfastClick">holdfast button</button>
+				<p id="bubble3" class="bubbleText">
+					This is bubble text for bubble 3. It will contain information about the holdfasts of the seaweed.
+				</p>
+			</div>
 		</div>
 	</div>
 </body>
