@@ -1,25 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
 body {
   font-family: sans-serif;
-  height: 3000px; /* DIMENSIONS OF THE SITE */
+  height: 3020px; /* DIMENSIONS OF THE SITE */
   width: 1500px;
   background: linear-gradient(0deg, #001318 0%, #006882 50%, #88e7ff 100%);
 }
 
-/* BACKGROUND IMAGE GOES HERE ONCE WE HAVE IT. TRANSPARENT.GIF AND SPIDER.PNG WERE TEST FILES
 #content {
-  background: url(../image/transparent.gif);
+  background: url(../image/seaweed_background.png);
+  background-size: cover;
+  width: 1519px;
+  height: 3010px;
 }
-*/
 
 .title {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 300px;
+  margin-bottom: 0px;
   display: block;
   text-align: center;
-  font-size: 30pt;
-  color: #0f580a;
+  color: #9fe470;
+}
+
+h1 {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-size: 80pt;
+  background-color: black;
+  width: 550px;
+  border-radius: 50px;
+}
+
+.title p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:  40pt;
+  background-color: black;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  width: 300px;
+  padding-bottom: 20px;
 }
 
 .information .generalContainer {
@@ -31,12 +64,12 @@ body {
 .generalContainer {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 300px;
   display: inline-block;
   border-radius: 50%;
   text-align: center;
-  width: 350px;
-  height: 350px;
-  background-color: #0f580a; /* eventually, this will be on top of a seaweed image, but the color helps visualize the structure for now */
+  width: 600px;
+  height: 600px;
   position: relative;
   overflow: hidden;
 }
@@ -47,9 +80,13 @@ body {
   display: inline-block;
   border-radius: 50%;
   text-align: center;
-  width: 350px;
-  height: 350px; /* eventually, this will be on top of a seaweed image, but the color helps visualize the structure for now */
-  opacity: 0%;
+  width: 600px;
+  height: 600px; /* eventually, this will be on top of a seaweed image, but the color helps visualize the structure for now */
+  background-color: white; /* Buttons should be made transparent in final version. This is just so we can see them for now. */
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  opacity: 20%;
   position: relative;
   overflow: hidden;
 }
@@ -59,11 +96,14 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  padding-bottom: 0px;
-  line-height: 1.25;     /* adjust line height & width to get good fit */
-  font-size: 10pt;
-  width: 250px;
-  color: #9fe470;
+  padding-bottom: 130px;
+  line-height: 1.5;     /* adjust line height & width to get good fit */
+  font-size: 14pt;
+  width: 350px;
+  height: 300px;
+  color: black;
+  opacity: 100%;
+  font-weight: bold;
 }
 
 .bubbleText {
@@ -73,21 +113,30 @@ body {
 #stemClick {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  margin-top: 700px;
-  width: 40px;
+  margin-right: 760px;
+  margin-top: 150px;
+  width: 100px;
   height: 100px;
-  background-color: red; /* Buttons should be made transparent in final version. This is just so we can see them for now. */
+  border-radius: 50%;
+  background-color: white; /* Buttons should be made transparent in final version. This is just so we can see them for now. */
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  opacity: 20%;
 }
 
 #holdfastClick {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  width: 50px;
-  height: 40px;
-  margin-top: 660px;
-  background-color: red;
+  margin-right: 770px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white; /* Buttons should be made transparent in final version. This is just so we can see them for now. */
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  opacity: 20%;
 }
 
 .clickHere {
@@ -104,17 +153,20 @@ body {
 
 #indicator1 {
   float: right;
-  margin-right: 500px;
+  margin-right: 300px;
+  width: 220px;
 }
 
 #indicator2 {
   float: right;
-  margin-right: 500px;
+  margin-right: 400px;
+  width: 190px;
 }
 
 #indicator3 {
   float: right;
-  margin-right: 500px;
+  margin-right: 300px;
+  width: 250px;
 }
 
 .bubbleText {
@@ -139,7 +191,7 @@ body {
   background: url(../image/textBubble.png);
   width: 400px;
   height: 300px;
-  margin-left: 50px;
+  margin-left: 100px;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -154,4 +206,5 @@ body {
 
 #textContainer3 {
   opacity: 0;
+  margin-top: 200px;
 }
