@@ -10,16 +10,12 @@
 
 body {
   font-family: sans-serif;
-  height: 3020px; /* DIMENSIONS OF THE SITE */
-  width: 1500px;
   background: linear-gradient(0deg, #001318 0%, #006882 50%, #88e7ff 100%);
 }
 
 #content {
   background: url(../image/seaweed_background.png);
-  background-size: cover;
-  width: 1519px;
-  height: 3010px;
+  background-size: 100% 100%;
 }
 
 .title {
