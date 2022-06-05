@@ -61,7 +61,7 @@ h1 {
 .generalContainer {
   position: absolute;
   padding-right: 5%;
-  margin-top: 450px;
+  margin-top: 530px;
   display: inline-block;
   border-radius: 50%;
   text-align: center;
@@ -211,4 +211,17 @@ h1 {
 #textContainer3 {
   opacity: 0;
   height: 325px;
+}
+
+#links {
+  background-color: black;
+  margin-left: 5%;
+  padding: 10px;
+  width: 140px;
+  border-radius: 10px;
+}
+
+a {
+  color: #9fe470;
+  line-height: 1.5;
 }
