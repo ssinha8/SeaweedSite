@@ -98,8 +98,9 @@ h1 {
   font-size: 12pt;
   width: 19vw;
   height: 19vw;
-  color: black;
+  color: #42BFDD;
   opacity: 100%;
+  line-height: 200%;
   font-weight: bold;
 }
 
