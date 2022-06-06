@@ -93,9 +93,9 @@ h1 {
   top: 50%;
   left: 50%;
   padding-right: 14%;
-  padding-bottom: 15%;
+  padding-bottom: 8%;
   line-height: 1.4;     /* adjust line height & width to get good fit */
-  font-size: 12pt;
+  font-size: 0.8vw;
   width: 19vw;
   height: 19vw;
   color: #42BFDD;
