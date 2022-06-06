@@ -1,5 +1,5 @@
 var sound = document.getElementById("pop");
-sound.volume = 0.1;
+sound.volume = 0.4;
 
 // sets the opacity to 100% if 0%, and 0% if 100%
 $("#bubbleClick").click(function() {
